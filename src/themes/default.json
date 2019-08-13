@@ -1,0 +1,113 @@
+{
+    "base": {
+        "text-align": "left",
+        "line-height": "1.5",
+        "font-size": "16px",
+        "desc": "所有要素的基础样式"
+    },
+    "base_block": {
+        "margin": "20px 10px",
+        "word-break": "break-word",
+        "desc": "所有块级元素的基础样式"
+    },
+    "h2": {
+        "font-size": "140%",
+        "text-align": "center",
+        "font-weight": "normal",
+        "margin": "40px 10px 40px 10px",
+        "desc": "3级以上标题元素样式"
+    },
+    "h3": {
+        "font-size": "120%",
+        "font-weight": "bold",
+        "margin": "40px 10px 20px 10px",
+        "desc": "3级以下标题元素样式"
+    },
+    "p": {
+        "margin": "10px 10px",
+        "line-height": "1.6",
+        "word-break": "break-word",
+        "font-family": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+        "desc": "段落样式"
+    },
+    "blockquote": {
+        "color": "rgb(91, 91, 91)",
+        "padding": "1px 0 1px 10px",
+        "background": "rgba(158, 158, 158, 0.1)",
+        "border-left": "3px solid rgb(158,158,158)",
+        "desc": "块级引用样式"
+    },
+    "code": {
+        "border-radius": "4px",
+        "desc": "块级代码样式，可不写，由代码风格控制"
+    },
+    "image": {
+        "border-radius": "4px",
+        "box-shadow": "0 0 6px rgba(0, 0, 0, 0.49)",
+        "display": "block",
+        "margin": "20px auto",
+        "width": "100%",
+        "desc": "图片样式"
+    },
+    "ol": {
+        "margin-left": "0",
+        "padding-left": "20px",
+        "desc": "序列表样式"
+    },
+    "ul": {
+        "margin-left": "0",
+        "padding-left": "20px",
+        "list-style": "circle",
+        "desc": "无序列表样式"
+    },
+    "listitem": {
+        "text-indent": "-20px",
+        "display": "block",
+        "margin": "10px 10px",
+        "desc": "列表项样式"
+    },
+    "table": {
+        "border-collapse": "collapse",
+        "margin": "20px 0",
+        "desc": "表格样式"
+    },
+    "thead": {
+        "background": "rgba(0,0,0,0.05)",
+        "desc": "表头样式"
+    },
+    "td": {
+        "font-size": "80%",
+        "border": "1px solid #dfdfdf",
+        "padding": "4px 8px",
+        "desc": "表单元格样式"
+    },
+    "hr": {
+        "border-style": "solid",
+        "border-width": "1px 0 0",
+        "border-color": "rgba(0, 0, 0, 0.1)",
+        "transform-origin": " 0 0",
+        "transform": "scale(1, 0.5)",
+        "desc": "分割线样式"
+    },
+    "footnotes": {
+        "margin": "10px 10px",
+        "font-size": "14px",
+        "desc": "底部引用样式"
+    },
+    "codespan": {
+        "font-size": "90%",
+        "background": "#f8f5ec",
+        "padding": "3px 5px",
+        "border-radius": "2px",
+        "font-family": "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
+        "desc": "行内代码块样式"
+    },
+    "link": {
+        "color": "#ff3502",
+        "desc": "链接样式"
+    },
+    "strong": {
+        "color": "#ff3502",
+        "desc": "粗体样式"
+    }
+}
