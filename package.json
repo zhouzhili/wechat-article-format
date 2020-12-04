@@ -10,7 +10,7 @@
   "dependencies": {
     "ant-design-vue": "^1.3.13",
     "core-js": "^2.6.5",
-    "highlight.js": "^9.15.9",
+    "highlight.js": "^10.4.1",
     "jsoneditor": "^6.2.1",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
